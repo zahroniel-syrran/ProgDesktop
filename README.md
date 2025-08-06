@@ -29,6 +29,7 @@ A estrutura de pastas pode variar conforme o conteúdo das aulas. Em geral, voc�
 📁 /imagens → Recursos visuais usados nas aulas
 📁 /projetos → Modelos e estruturas de projetos desenvolvidos
 
+
 ---
 
 ## 🛠️ Como usar este repositório
