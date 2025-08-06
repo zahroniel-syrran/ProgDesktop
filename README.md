@@ -23,11 +23,11 @@ Os conteúdos aqui apresentados **não estão completos ou integrais**, pois faz
 
 A estrutura de pastas pode variar conforme o conteúdo das aulas. Em geral, você encontrará:
 
-📁 /documentos → Textos de apoio, PDFs e resumos
-📁 /exercicios → Atividades e roteiros práticos
-📁 /codigos → Exemplos de código (HTML, CSS, JS, PHP, C, Portugol, etc.)
-📁 /imagens → Recursos visuais usados nas aulas
-📁 /projetos → Modelos e estruturas de projetos desenvolvidos
+- 📁 /documentos → Textos de apoio, PDFs e resumos
+- 📁 /exercicios → Atividades e roteiros práticos
+- 📁 /codigos → Exemplos de código (HTML, CSS, JS, PHP, C, Portugol, etc.)
+- 📁 /imagens → Recursos visuais usados nas aulas
+- 📁 /projetos → Modelos e estruturas de projetos desenvolvidos
 
 
 ---
