@@ -1,0 +1,9 @@
+
+**1 - Reproduzir o programa do vídeo**
+
+Robótica CPS - Maratona de Programação - C++ - Entrada e Saída Padrão - https://www.youtube.com/watch?v=zSkLJ3saRak&list=PL8WaHihCmdUKr3l0Gt8eEuo0VEwvrQSeW&index=8
+
+**2 - Escolher um exercício. Resolver e postar.**
+
+. Problema_A
+. Problema_B
