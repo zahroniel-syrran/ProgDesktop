@@ -34,7 +34,7 @@ Ler a quantidade de cavalos adquiridos recentemente, calcular a quantidade de fe
 
 ## 💻 Layout da Tela
 
-### ✅ Situação Normal (*happy path*):
+### ✅ Situação Normal (*happy hour*):
 ```
 Cálculo de Ferraduras para o Haras Cavalos Brilhantes
 
