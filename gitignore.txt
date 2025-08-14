@@ -7,6 +7,9 @@ Thumbs.db
 *.bak
 *.tmp
 *.swp
+*.o
+*.exe
+*.win
 
 # Ignorar arquivos temporários de editores
 *.log
