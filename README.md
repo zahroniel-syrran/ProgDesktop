@@ -21,13 +21,75 @@ Os conteúdos aqui apresentados **não estão completos ou integrais**, pois faz
 
 ## 📂 Estrutura do Repositório
 
-A estrutura de pastas pode variar conforme o conteúdo das aulas. Em geral, você encontrará:
+# 🚀 Caminho do Programador – Jornada em 5 Fases
 
-- 📁 /documentos → Textos de apoio, PDFs e resumos
-- 📁 /exercicios → Atividades e roteiros práticos
-- 📁 /codigos → Exemplos de código (HTML, CSS, JS, PHP, C, Portugol, etc.)
-- 📁 /imagens → Recursos visuais usados nas aulas
-- 📁 /projetos → Modelos e estruturas de projetos desenvolvidos
+## 🌱 1. Bitwalker  
+🧩 *"Aquele que dá os primeiros passos entre zeros e uns."*
+
+**Descrição:**  
+O Bitwalker é o iniciante curioso. Ele aprende o que é um algoritmo, descobre os comandos básicos e começa a enxergar padrões no código. Cada linha é uma trilha que ele explora com atenção.
+
+**Aprendizados típicos:**
+- Variáveis, entrada/saída
+- Lógica sequencial
+- Introdução à linguagem de programação
+- Primeiros erros, primeiros acertos
+
+---
+
+## 🔮 2. Codemancer  
+✨ *"O mago dos comandos — conjura lógica com estruturas poderosas."*
+
+**Descrição:**  
+O Codemancer domina os feitiços básicos da lógica: condições, laços e funções. Ele já não apenas repete — começa a criar. Seu código tem intenção, sua tela é seu grimório.
+
+**Aprendizados típicos:**
+- Condicionais (if/else), loops (for, while)
+- Funções e escopo
+- Organização de scripts
+- Primeiros projetos próprios
+
+---
+
+## 🧭 3. Syntax Seeker  
+🔍 *"O buscador da clareza — entende que cada símbolo tem propósito."*
+
+**Descrição:**  
+O Syntax Seeker vai além da execução. Ele busca compreender como e por quê. Lê códigos alheios com respeito, entende erros, refatora, e começa a valorizar a legibilidade.
+
+**Aprendizados típicos:**
+- Sintaxe correta e idiomática
+- Boas práticas de nomenclatura e organização
+- Debugging consciente
+- Leitura e análise de código de terceiros
+
+---
+
+## ⚙️ 4. Logic Crafter  
+🔧 *"O artesão de sistemas — constrói com estratégia e propósito."*
+
+**Descrição:**  
+Agora ele constrói estruturas sólidas. Usa classes, módulos, integrações. Seus projetos resolvem problemas reais. O Logic Crafter domina o tempo, planeja antes de programar.
+
+**Aprendizados típicos:**
+- Programação orientada a objetos (POO)
+- Modularização e reuso
+- Consumo de APIs e estrutura de dados
+- Controle de versão (Git)
+
+---
+
+## 🧙‍♂️ 5. System Sage  
+🌐 *"O sábio dos sistemas — conecta ideias, pessoas e códigos com ética."*
+
+**Descrição:**  
+Mais que codar, o System Sage **ensina, inspira, transforma**. Ele escolhe tecnologias com consciência, constrói soluções sustentáveis, e compartilha seu saber com humildade.
+
+**Aprendizados típicos:**
+- Arquitetura de software
+- Segurança, escalabilidade, documentação
+- Mentoria e ensino
+- Desenvolvimento com propósito
 
 
 ---
@@ -38,9 +100,9 @@ Para acessar o conteúdo localmente:
 
 1. **Clone o repositório** em sua máquina:
    ```bash ou CMD
-   git clone https://github.com/zahroniel-syrran/ProgrammingAndAlgorithms.git
+   git clone https://github.com/zahroniel-syrran/ProgDesktop.git
 Navegue pelas pastas para acessar os materiais:
-cd ProgrammingAndAlgorithms
+cd ProgDesktop
 Abra os arquivos com seu editor favorito ou navegador, conforme o tipo de conteúdo.
 
 📖 Licença e uso do conteúdo
