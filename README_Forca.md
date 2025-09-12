@@ -85,6 +85,94 @@ Definir número máximo de erros (ex.: `6`).
 ## 🚀 Desafio proposto
 
 1.  Implementar o jogo básico da forca com as 5 palavras fornecidas.\
-2.  Permitir que o jogador erre até 6 vezes.\
+2.  Permitir que o jogador erre até 5 vezes.\
 3.  Contar acertos e erros.\
 4.  Melhorar a experiência mostrando letras já usadas.
+
+------------------------------------------------------------------------
+
+## 📘 Exemplo do Jogo (Versão monolítica)
+
+```
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <cctype>
+
+int main(int argc, char** argv) {
+	
+	int zNumeroSorteado,zTotalLetras,zQtdAcerto,zQtdErro;
+	bool zAchou; //Tipo logico. Valore possiveis: true e false (Verdadeiro e Falso)
+	char zPalavras[10][30]={"Zaion", "Alin", "Zeta", "Leo", "Zahroniel", "Darian", "kael","Marcos","Rita","Beta"};
+	char zPalavraSorteada [30], zMascara[30], zPalpite;
+	
+	
+	srand(time(NULL));
+	
+	while (true){
+	
+		zNumeroSorteado = rand() %10;
+		strcpy (zPalavraSorteada, zPalavras[zNumeroSorteado]);
+		zTotalLetras = strlen (zPalavraSorteada);
+		
+		// Criando a mascara "-----"
+		for (int i = 0; i < zTotalLetras;i++){
+			zMascara [i]='-';
+			
+		}
+		//Colocando o finalizador na Mascara, para nao mostrar lixo
+		zMascara [zTotalLetras]='\0';
+		zQtdAcerto=0;
+		zQtdErro=0;
+		while (true){		
+			std::cout << zPalavraSorteada << "\n";
+			std::cout << "\n\nJogo da Forca\n\n";
+			std::cout << "Palavra: "<<zMascara<<"\n\n";
+			std::cout << "Voce errou: "<<zQtdErro<<" vezes (Max: 5 vezes). Boa sorte!";
+			std::cout << "\n\nQual e a letra: ";
+			std::cin>>zPalpite;
+			std::cin.ignore (); // Ignora o enter
+			zAchou=false;
+			//Procurando a letra
+			for (int i = 0; i < zTotalLetras;i++){
+				//tranforma a letra da palavra em maiuscula antes de comparar
+				if (std::toupper(zPalavraSorteada [i])== std::toupper(zPalpite)){
+					//se acertou, revela a leta
+					zMascara[i]=zPalavraSorteada[i];
+					//Conta os acertos
+					zQtdAcerto++;
+					zAchou=true;
+				}	
+			}
+			//Se nao achou, conta erro. O  " ! "  significa nao.
+			if (!zAchou) zQtdErro++;
+			// Verifica se terminou as letras ou se atingiu o maximo de erro
+			if ((zQtdAcerto == zTotalLetras)||(zQtdErro==5)){
+				break;
+			}		
+		}
+		// Escreve se errou ou acertou
+		if (zQtdAcerto == zTotalLetras){
+				std::cout << "\n Parabens voce acertou";
+		} else {
+				std::cout << "\n que pena voce errou";
+				
+				
+				
+			}
+			
+		// Pergunta se deseja continuar
+        char zOpc;
+        std::cout << "\nDeseja jogar novamente? (S/N): ";
+        std::cin >> zOpc;
+
+        // Normaliza e decide
+        zOpc = std::toupper(zOpc);
+        if (zOpc != 'S') {
+            std::cout << "\nEncerrando. Obrigado por jogar!\n";
+            break;
+        }
+    }
+	return 0;
+}
+```
